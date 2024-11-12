@@ -1,0 +1,19 @@
+body {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+article {
+    margin: 8px;
+    padding: 8px;
+    padding-inline: 34px;
+    background-color: bisque;
+    width:max-content;
+    border-radius: 14px;
+    
+}
+article:hover {
+    scale: 105%;
+}

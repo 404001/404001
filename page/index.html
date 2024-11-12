@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin-top: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(205, 185, 162);
+            height: 100%;
+        }
+        #cart {
+            color: black;
+            margin: 18px;
+            padding: 8px;
+            padding-inline: 34px;
+            background-color: bisque;
+            width: 440px;
+            border-radius: 14px;
+            cursor: pointer;
+        }
+        article:hover {
+            scale: 105%;
+        }
+    </style>
+    <title>Hola Mundo</title>
+</head>
+
+<body>
+    <div>
+        <header style="display: flex; justify-items: center; align-items: center;">
+            <img width="40px"
+            style="margin-left: 20px;"
+                src="https://imgs.search.brave.com/zsODBqm6PNoxO4QRfgqZhLC4RwWac1oUX_Tb7U4vxBg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNzY2hvb2xzLmNv/bS9pbWFnZXMvc3Bh/Y2VzLWljb24tdHJ5/aXQuc3Zn"
+                alt="html icon">
+            <h1 style="size: 20px; font-weight: 900; margin-left: 20px;">Hola Mundo</h1>
+            <nav style="margin-left: 50px;">
+                <ul>
+                    <a style="color: black;" href="https://google.com" target="_blank" title="Go to the google page.">google.com</a>
+                    <a style="color: black;" href="https://microsoft.com" target="_blank" title="Go to the microsoft page.">microsoft.com</a>
+                </ul>
+            </nav>
+        </header>
+        <main style="margin-top: 20px;">
+            <section class="articles_section">
+                <a href="/tutorial_vscode.html" style="text-decoration: none;">
+                    <article id="cart">
+                        <h2>Como instalar Visual Studio Code</h2>
+                        <p>Tutorial de como instalar vscode con todas las extensiones necesarias.</p>
+                    </article>
+                </a>
+                <a href="/tutorial_html.html" style="text-decoration: none;">
+                    <article id="cart">
+                        <h2>Como programar en HTML</h2>
+                        <p>Tutorial de como programar en html usando el editor de codigo de vscode.</p>
+                    </article>
+                </a>
+            </section>
+        </main>
+        <footer style="margin-top:40vh; display: flex; justify-items: center; align-items: center; justify-content: center;">
+            <address>Mail: <a style="color: black;" href="5814012@alumno.cooperativaelope.es">5814012@alumno.cooperativaelope.es</a></address>
+        </footer>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
